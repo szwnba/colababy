@@ -268,7 +268,7 @@ figure figcaption {
   position: relative;
   width: 80%;
   margin: 0 auto;
-  padding: 3em 0;
+  padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-main .fh5co-narrow-content {
@@ -484,7 +484,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .fh5co-testimonial .item figure img {
   max-width: inherit;
-  width: 110px;
+  width: 90px;
   margin: 0 auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -537,12 +537,14 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-lead {
   font-size: 24px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .fh5co-heading-colored {
   color: #544541;
-  width: 600px;;
-  
+  width: 100%;
+  margin-left: 80%;
+  margin-top: 35px;;
 }
 
 .fh5co-cards {
@@ -725,9 +727,9 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .fh5co-feature .fh5co-text {
   float: right;
-  width: 110%;
+  width: 80%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .fh5co-feature .fh5co-text {
     width: 82%;
   }
